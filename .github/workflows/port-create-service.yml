@@ -20,7 +20,7 @@ jobs:
   scaffold-service:
     runs-on: ubuntu-latest
     env:
-      ORG_NAME: DamianChelvaOrg
+      ORG_NAME: DamianChelva
 
     steps:
       - uses: actions/checkout@v4
