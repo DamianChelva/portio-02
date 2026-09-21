@@ -5,7 +5,7 @@
     lifecycle: active
     documentation_url: https://ec2pricing.damianch.com
     language: go
-    tier: "1"
+    tier: "critical"
     description: Handles authentication and authorization
   relations:
     owning_team: platform_team
@@ -17,7 +17,7 @@
     lifecycle: experimental
     documentation_url: https://wfh.damianch.com
     language: go
-    tier: "2"
+    tier: "standard"
     description: Manages JWT token refresh lifecycle
   relations:
     owning_team: platform_team
