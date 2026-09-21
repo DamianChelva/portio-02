@@ -4,7 +4,7 @@
   properties:
     lifecycle: active
     documentation_url: https://ec2pricing.damianch.com
-    language: Go
+    language: go
     tier: "1"
     description: Handles authentication and authorization
   relations:
@@ -16,7 +16,7 @@
   properties:
     lifecycle: experimental
     documentation_url: https://wfh.damianch.com
-    language: Go
+    language: go
     tier: "2"
     description: Manages JWT token refresh lifecycle
   relations:
