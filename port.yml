@@ -1,0 +1,23 @@
+- identifier: auth-service
+  title: Auth Service
+  blueprint: service
+  properties:
+    lifecycle: active
+    documentation_url: https://ec2pricing.damianch.com
+    language: Go
+    tier: "1"
+    description: Handles authentication and authorization
+  relations:
+    owning_team: platform_team
+
+- identifier: token-refresh-service
+  title: Token Refresh Service
+  blueprint: service
+  properties:
+    lifecycle: experimental
+    documentation_url: https://wfh.damianch.com
+    language: Go
+    tier: "2"
+    description: Manages JWT token refresh lifecycle
+  relations:
+    owning_team: platform_team
